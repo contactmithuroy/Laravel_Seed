@@ -15,6 +15,8 @@ class PostTableSeeder extends Seeder
      *
      * @return void
      */
+    
+    //using seeding & faker can create 100 title and paragraph 
     public function run()
     {
         $faker = Faker::create();
